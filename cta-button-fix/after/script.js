@@ -1,4 +1,4 @@
-const ctaBtn = document.querySlector('.cta-btn');
+const ctaBtn = document.querySelector('.cta-btn');
 
 ctaBtn.addEventListener('click', (e) => {
   if(ctaBtn.classList.contains('is-disabled')) {
