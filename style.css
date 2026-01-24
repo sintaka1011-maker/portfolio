@@ -53,6 +53,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.readme_link{
+  font-size: smaller;
+}
+
 /* 実績リスト */
 small {
   display: block;
