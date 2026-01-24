@@ -27,3 +27,9 @@ body {
   outline-offset: 2px;
 }
 
+.cta-btn.is-disabled {
+  pointer-events: none;
+  background: #999;
+}
+
+
