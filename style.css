@@ -53,15 +53,15 @@ a:hover {
   text-decoration: underline;
 }
 
-.readme_link{
-  font-size: smaller;
-}
-
 /* 実績リスト */
 small {
   display: block;
   margin-top: 4px;
   color: #666;
+}
+
+.readme_link{
+  font-size: smaller;
 }
 
 /* スマホ */
