@@ -1,5 +1,6 @@
 .site-header {
   position: fixed;
+  padding: 0 40px;
   top: 0;
   left: 0;
   width: 100%;
