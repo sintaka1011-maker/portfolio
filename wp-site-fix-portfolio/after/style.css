@@ -14,7 +14,7 @@ body {
 
 /* ヘッダー分、本文を下げる */
 .site-main {
-  margin-top: 210px;
+  margin: 210px 40px 50px 80px;
 }
 
 /* ヘッダー固定　スクロール最下層時影が出る */
