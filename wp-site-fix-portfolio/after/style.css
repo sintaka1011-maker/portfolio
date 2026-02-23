@@ -8,6 +8,10 @@
   border-bottom: 1px solid lightgray;
 }
 
+.site-title{
+  margin: 10px;
+}
+
 .menu {
   display: grid;
   grid-auto-flow: column;
