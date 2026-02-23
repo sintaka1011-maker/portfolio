@@ -29,6 +29,10 @@ body {
   display: none;
 }
 
+.faq-a.is-open {
+  display: block;
+}
+
 .faq-content {
   margin-bottom: 16px;
 }
