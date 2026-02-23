@@ -31,7 +31,7 @@ dl.faq-content {
 }
 
 .faq-content.open .faq-q::after{
-  content: "-";
+  content: "ー";
 }
 
 dt.faq-q span::before {
@@ -44,7 +44,9 @@ dt.faq-q span::before {
 }
 
 .faq-q::after {
-  content: "+";
+  content: "＋";
+    float: right;
+    color: darkgray;
 }
 
 .faq-a span::before {
