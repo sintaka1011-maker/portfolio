@@ -32,7 +32,6 @@ body {
 .faq-q {
   cursor: pointer;
   font-weight: bold;
-  counter-increment: a-counter;
 }
 
 .faq-q.reset{
@@ -40,7 +39,8 @@ body {
 }
 
 .faq-q span::before {
-  content: counter(a-counter) ". ";
+  counter-increment: q-counter;
+  content: counter(q-counter) ". ";
 }
 .faq-a span::before {
   content: "A. ";
