@@ -25,12 +25,12 @@ body {
 }
 
 /* FAQページ */
-.faq-content {
+dl.faq-content {
   margin-bottom: 16px;
+  counter-increment: q-counter;
 }
 
-.faq-content span::before {
-  counter-increment: q-counter;
+dl.faq-content span::before {
   content: counter(q-counter) ". ";
 }
 
