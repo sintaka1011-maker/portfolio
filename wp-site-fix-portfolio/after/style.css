@@ -29,19 +29,16 @@ body {
   margin-bottom: 16px;
 }
 
+.faq-content span::before {
+  counter-increment: q-counter;
+  content: counter(q-counter) ". ";
+}
+
 .faq-q {
   cursor: pointer;
   font-weight: bold;
 }
 
-.faq-q.reset{
-  counter-reset: a-counter;
-}
-
-.faq-q span::before {
-  counter-increment: q-counter;
-  content: counter(q-counter) ". ";
-}
 .faq-a span::before {
   content: "A. ";
   color: red;
