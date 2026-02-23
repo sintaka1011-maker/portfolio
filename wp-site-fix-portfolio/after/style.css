@@ -45,8 +45,7 @@ dt.faq-q span::before {
 
 .faq-q::after {
   content: "＋";
-    float: right;
-    color: darkgray;
+  float: right;
 }
 
 .faq-a span::before {
