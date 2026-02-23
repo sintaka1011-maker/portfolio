@@ -25,15 +25,15 @@ body {
 }
 
 /* FAQページ */
-.faq-answer {
+.faq-a {
   display: none;
 }
 
-.faq-item {
+.faq-content {
   margin-bottom: 16px;
 }
 
-.faq-question {
+.faq-q {
   cursor: pointer;
   font-weight: bold;
 }
