@@ -23,3 +23,17 @@ body {
 .site-header.is-scrolled {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+
+/* FAQページ */
+.faq-answer {
+  display: none;
+}
+
+.faq-item {
+  margin-bottom: 16px;
+}
+
+.faq-question {
+  cursor: pointer;
+  font-weight: bold;
+}
