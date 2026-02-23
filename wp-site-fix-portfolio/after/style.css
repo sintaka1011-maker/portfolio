@@ -25,6 +25,16 @@
   border: 1px solid;
 }
 
+.menu-item::hover{
+  background-color: black;
+  color: white;
+}
+
+.menu-item.clicked {
+  background-color: black;
+  color: white;
+}
+
 /* 高さ指定そのものを削除 */
 body {
   min-height: 100vh;
