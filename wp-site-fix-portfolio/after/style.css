@@ -25,14 +25,6 @@ body {
 }
 
 /* FAQページ */
-.faq-a {
-  display: none;
-}
-
-.faq-a.is-open {
-  display: block;
-}
-
 .faq-content {
   margin-bottom: 16px;
 }
@@ -40,4 +32,25 @@ body {
 .faq-q {
   cursor: pointer;
   font-weight: bold;
+  counter-increment: a-counter;
+}
+
+.faq-q.reset{
+  counter-reset: a-counter;
+}
+
+.faq-q span::before {
+  content: counter(a-counter) ". ";
+}
+.faq-a span::before {
+  content: "A. ";
+  color: red;
+}
+
+.faq-a {
+  display: none;
+}
+
+.faq-a.is-open {
+  display: block;
 }
