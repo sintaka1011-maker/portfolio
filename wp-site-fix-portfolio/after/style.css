@@ -30,7 +30,7 @@ dl.faq-content {
   counter-increment: q-counter;
 }
 
-dl.faq-content span::before {
+dt.faq-q span::before {
   content: counter(q-counter) ". ";
 }
 
