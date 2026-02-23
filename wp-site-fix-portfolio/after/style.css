@@ -30,6 +30,10 @@ dl.faq-content {
   counter-increment: q-counter;
 }
 
+.faq-content.open .faq-q::after{
+  content: "-";
+}
+
 dt.faq-q span::before {
   content: counter(q-counter) ". ";
 }
@@ -37,6 +41,10 @@ dt.faq-q span::before {
 .faq-q {
   cursor: pointer;
   font-weight: bold;
+}
+
+.faq-q::after {
+  content: "+";
 }
 
 .faq-a span::before {
