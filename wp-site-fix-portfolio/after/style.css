@@ -11,13 +11,13 @@
 
 .menu {
   display: flex;
-  justify-content: center; /* 中央寄せ */
+  justify-content: space-between;
+  border: 1px solid;
 }
 
 .menu-item {
   box-sizing: border-box;
-  padding: 40px 80px;
-  background: #ffc33c;
+  margin: 17px 150px;
 }
 
 /* 高さ指定そのものを削除 */
